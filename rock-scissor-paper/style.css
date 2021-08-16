@@ -34,7 +34,7 @@ body {
 #user-label {
     background: red;
     position: absolute;
-    left: -15px;
+    left: -25px;
     top: 25px;
     padding: 3px;
     font-size: 20px;
@@ -42,7 +42,7 @@ body {
 #comp-label {
     background: red;
     position: absolute;
-    right: -25px;
+    right: -30px;
     top: 25px;
     padding: 3px;
     font-size: 20px;

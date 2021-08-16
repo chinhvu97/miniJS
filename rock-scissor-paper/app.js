@@ -20,15 +20,11 @@ function convertToWord(letter) {
     return 'Scissors';
 }
 
-function setTimeOut() {
-
-}
-
 function win(userChoice, compChoice) {
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
 
-    result.innerHTML = `${convertToWord(userChoice) + smallUserWord} beats ${convertToWord(compChoice) + smallCompWord}, You won!`;
+    result.innerHTML = `${convertToWord(userChoice) + smallUserWord} beats ${convertToWord(compChoice) + smallCompWord}, You won! 🔥`;
     userScore++;
     userScore_span.innerHTML = userScore;
     const userChoice_div = document.querySelector(`.${userChoice}`);
@@ -40,7 +36,7 @@ function lose(userChoice, compChoice) {
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
 
-    result.innerHTML = `${convertToWord(userChoice) + smallUserWord} loses ${convertToWord(compChoice) + smallCompWord}, You lost :poop !`;
+    result.innerHTML = `${convertToWord(userChoice) + smallUserWord} loses ${convertToWord(compChoice) + smallCompWord}, You lost 💩`;
     compScore++;
     compScore_span.innerHTML = compScore;
     const userChoice_div = document.querySelector(`.${userChoice}`);
@@ -52,7 +48,7 @@ function draw(userChoice, compChoice) {
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
 
-    result.innerHTML = `${convertToWord(userChoice) + smallUserWord} draws ${convertToWord(compChoice) + smallCompWord}, Its a draw :|`;
+    result.innerHTML = `${convertToWord(userChoice) + smallUserWord} draws ${convertToWord(compChoice) + smallCompWord}, Its a draw 🍣`;
     const userChoice_div = document.querySelector(`.${userChoice}`);
     userChoice_div.classList.add('gray-glow');
     setTimeout(() => userChoice_div.classList.remove('gray-glow'), 400);

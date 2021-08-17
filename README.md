@@ -1,6 +1,6 @@
-Hello fellas :blush:, this is my Mini JavaScript folder. Right now level is beginning but I want to level up it by practice so 😈
+Hello fellas :blush:, this is my Mini JavaScript folder. Right now level is beginner, might level up by practice so yah 😈
 
-Although currently being small, I hope it can grow by time. I will try to at least update one project a week :sleepy:.
+Currently small repo, I hope it can grow by time. Will try to at least update one project a week :sleepy:.
 
 List:
   1. Rock Paper Scissors ( :punch: :hand: :v: (16-08-2021)

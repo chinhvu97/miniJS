@@ -46,7 +46,7 @@ const next_btn = document.querySelector('.next-btn');
 const prev_btn = document.querySelector('.prev-btn');
 const surprise_btn = document.querySelector('.random-btn')
 
-let index = 1;
+let index = 0;
 
 function welcome() {
   let review = reviews[0];
@@ -75,10 +75,16 @@ function prev() {
   info_p.textContent = review.text;
 }
 function getRandomNumber() {
-  return Math.floor(Math.random() * reviews.length);
+  let num = index;
+  while (num === index) {
+     num = Math.floor(Math.random() * reviews.length);
+  }
+  return num;
 }
+
 function random() {
-  let review = reviews[getRandomNumber()];
+  index = getRandomNumber();
+  let review = reviews[index];
   author_h4.textContent = review.name;
   job_p.textContent = review.job;
   img_div.setAttribute('src', `${review.img}`);

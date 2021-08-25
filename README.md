@@ -10,5 +10,6 @@ Hello fellas :blush:, this is my Mini JavaScript folder. practicing JS 😈
   2. Color Flipper (17-08-2021)
   3. Counter (18-08-2021)
   4. Reviews (19-08-2021)
+  5. Navbar toggle (25-08-2021)
   
   (Updating)

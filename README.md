@@ -13,4 +13,5 @@ Hello fellas :blush:, this is my Mini JavaScript folder. practicing JS 😈
   5. Navbar toggle (25-08)
   6. Sidebar toggle (26-08)
   7. Open Modal (26-08)
+  8. Menu (27-08)
   (Updating)
